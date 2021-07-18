@@ -6,23 +6,57 @@ description: 'Practice working with basic HTML elements, no CSS'
 
 ## Overview
 
-Your task is to reproduce the HTML displayed in the screen capture below. This is a plain HTML page, no CSS. 
+Your task is to reproduce the HTML displayed in the screen capture below. This is a plain HTML page, no CSS.
 
-![](.gitbook/assets/image.png)
+![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/basic-elements.png)
 
-### Steps
+## 1. Clone the Labs Assignment Repository
 
-1. Clone the GitHub repository to a folder within your course projects folder
-2. Open the project folder in VS Code
-3. Create a single HTML file named index.html
-4. Create the [boiler-plate HTML code](https://fireflysemantics.medium.com/instant-html-boilerplate-in-vscode-with-emmet-3176c0c9ff7e) 
-5. Reproduce the HTML in the screen capture above
-6. Push your changes to GitHub using ACP git commands
-   1. A \(git add .\)
-   2. C \(git commit -m"comment"\)
-   3. P \(git push\)
+Review the **Assignments Info lesson** in the main course Gitbook if necessary.
 
-### Elements Used 
+## 2. Open the Project in VS Code
+
+Visual Studio Code associates a folder with a project. So the first step is to create a new folder for your project. 
+
+#### Open a Bash Command Shell
+
+* Start Git Bash from the Start Search box or
+* Change into the course project folder
+* create a new project folder
+  * mkdir practice
+* change directories into the new folder
+  * cd practice
+* launch VS Code from the current directory
+  * code .
+
+## 3. Create index.html
+
+Create your new HTML page in your project folder. Name it index.html. Once you have generated your boiler-plate HTML, don't forget to change the &lt;title&gt; element to something more meaningful for your page.
+
+## 4. Create HTML Boilerplate Code
+
+Boilerplate Code refers to sections of code that are often re-used, with little to no modifications. Every time we create a new HTML file, we need to add some boilerplate code. Fortunately, Visual Studio Code makes this very easy.
+
+If you just add a "!" character and then the "Tab" key, the following HTML will be automatically added to your file.
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+
+## 5. Reproduce the HTML in the Mockup
+
+### Elements Used
 
 The following HTML elements are used in the page. You can find documentation for any of these elements on the [W3 Schools site](https://www.w3schools.com/tags/default.asp). Just click on the tag name in the left navigation menu.
 
@@ -46,7 +80,7 @@ The following HTML elements are used in the page. You can find documentation for
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><code>ol</code>/<code>li </code>
+        <p><code>ol</code>/<code>li</code>
         </p>
         <p><code>ul</code>/<code>li</code>
         </p>
@@ -97,13 +131,13 @@ The following HTML elements are used in the page. You can find documentation for
       <td style="text-align:left">
         <p><code>&amp;lt; (&lt;)</code>
         </p>
-        <p><code>&amp;gt; (&gt;) </code>
+        <p><code>&amp;gt; (&gt;)</code>
         </p>
         <p><code>&amp;nbsp; ( )</code>
         </p>
       </td>
       <td style="text-align:left">These are called HTML entities. It is how you insert special HTML characters
-        as text in your page. Refer to this <a href="https://www.w3schools.com/html/html_entities.asp">documentation </a>for
+        as text in your page. Refer to this <a href="https://www.w3schools.com/html/html_entities.asp">documentation</a> for
         more details.</td>
     </tr>
   </tbody>
@@ -118,17 +152,23 @@ Pay attention to the type of list it should be: ordered vs unordered.
 * The first link should navigate to a new page in the same tab \(replace the current page\)
 * The second link should bring up a new, separate window and load that window with the new page\).  Review documentation for the [target property](https://www.w3schools.com/tags/att_a_target.asp) of the anchor element to see how to make this happen.
 
-#### Images 
+#### Images
 
 The profile image should use a local image. The image is in the images directory in the project folder.
 
 The Google image should use a remote image URL. The URL is: [https://www.google.com/images/branding/googlelogo/1x/googlelogo\_color\_272x92dp.png](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 
-#### Common 
+#### Common
 
 Pay attention to the type of list to use: ordered vs unordered.
 
 Pay particular attention to the first bullet item. It displays the text `<div>` and `<span>` , separated by a space. The "&lt;" and "&gt;" characters have special meaning in HTML, so you have to use a special HTML entities syntax to escape them, `&th;` and `&gt;`
 
 Space in your HTML document is ignored when rendering the page, so to insert a space character in your HTML, you also need to use the special HTML entities syntax, `&nbsp;`
+
+## 6. Push Your Changes to GitHub using ACP git Commands
+
+1. A \(git add .\)
+2. C \(git commit -m"comment"\)
+3. P \(git push\)
 
