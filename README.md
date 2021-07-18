@@ -4,7 +4,7 @@
 
 Your task is to reproduce the HTML displayed in the screen capture below. This is a plain HTML page, no CSS.
 
-![](https://raw.githubusercontent.com/intro-web-dev-master/images/main/basic-elements.png)
+![](https://raw.githubusercontent.com/hoc-labs/images/main/basic-elements.png)
 
 ## 1. Clone the Labs Assignment Repository
 
