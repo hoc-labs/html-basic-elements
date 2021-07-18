@@ -1,8 +1,4 @@
----
-description: 'Practice working with basic HTML elements, no CSS'
----
-
-# Basic Elements
+# HTML Basic Elements
 
 ## Overview
 
