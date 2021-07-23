@@ -145,7 +145,7 @@ The following HTML elements are used in the page. You can find documentation for
 
 Pay attention to the type of list it should be: ordered vs unordered.
 
-* The first link should navigate to a new page in the same tab \(replace the current page\)
+* The first link should navigate to a new page in the same tab (replace the current page)
 * The second link should bring up a new, separate window and load that window with the new page\).  Review documentation for the [target property](https://www.w3schools.com/tags/att_a_target.asp) of the anchor element to see how to make this happen.
 
 #### Images
@@ -164,7 +164,7 @@ Space in your HTML document is ignored when rendering the page, so to insert a s
 
 ## 6. Push Your Changes to GitHub using ACP git Commands
 
-1. A \(git add .\)
-2. C \(git commit -m"comment"\)
-3. P \(git push\)
+1. A (git add .)
+2. C (git commit -m"comment")
+3. P (git push)
 
