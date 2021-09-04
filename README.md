@@ -10,26 +10,11 @@ Your task is to reproduce the HTML displayed in the screen capture below. This i
 
 Review the **Assignments Info lesson** in the main course Gitbook if necessary.
 
-## 2. Open the Project in VS Code
-
-Visual Studio Code associates a folder with a project. So the first step is to create a new folder for your project. 
-
-#### Open a Bash Command Shell
-
-* Start Git Bash from the Start Search box or
-* Change into the course project folder
-* create a new project folder
-  * mkdir practice
-* change directories into the new folder
-  * cd practice
-* launch VS Code from the current directory
-  * code .
-
-## 3. Create index.html
+## 2. Create index.html
 
 Create your new HTML page in your project folder. Name it index.html. Once you have generated your boiler-plate HTML, don't forget to change the &lt;title&gt; element to something more meaningful for your page.
 
-## 4. Create HTML Boilerplate Code
+## 3. Create HTML Boilerplate Code
 
 Boilerplate Code refers to sections of code that are often re-used, with little to no modifications. Every time we create a new HTML file, we need to add some boilerplate code. Fortunately, Visual Studio Code makes this very easy.
 
@@ -50,7 +35,7 @@ If you just add a "!" character and then the "Tab" key, the following HTML will 
 </html>
 ```
 
-## 5. Reproduce the HTML in the Mockup
+## 4. Reproduce the HTML in the Mockup
 
 ### Elements Used
 
